@@ -3,8 +3,8 @@
   "description": "Slides and links to a full-day Ruby immersion workshop",
   "sections": [
 	{"section":"000_setup.md"},
+  {"section":"sponsors"},
 	{"section":"welcome"},
-	{"section":"current.md"},
 	{"section":"ruby_for_programmers"},
 	{"section":"suggestotron"}
   ]
