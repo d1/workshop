@@ -1,6 +1,7 @@
 !SLIDE centereverything
 
-<img src="../img/railsbridge_logo.png">
+![Railsbridge](img/railsbridge_logo.png)
+
 # Ruby on Rails Installfest
 ### October 3rd, 2009
 #####wireless: rails pwd: alohaonrails
