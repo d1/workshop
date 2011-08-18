@@ -3,40 +3,53 @@ This repo contains several slide presentations for use during the Railsbridge Op
 
 Not all presentations are ready to be shown yet!
 
-# Installing Showoff
+# Quick Start
+
+	# install the workshop materials
+	git clone git://github.com/railsbridge/workshop.git
+	cd workshop
+
+	# install the gems
+	gem install bundler
+	bundle install
+
+	# run the standard presentation
+	rake showoff serve
+
+This will launch a local Sinatra server on port 9090. Open your browser to `localhost:9090`. On a Mac you can run:
+
+    open http://localhost:9090
+
+Use arrow keys to navigate slides. Press '?' to see a help window with more key commands.
+
+# Showoff Versions
 
 We use a Ruby app called `showoff` to generate and serve the workshop slides.
 
-Alex has been improving showoff; until his latest patches get accepted and released, you will have to download and install his version, as follows:
+Alex has been improving showoff; until his latest patches get accepted and released, you will have to use his version. If you use Bundler and Rake (as in "Quick Start" above) it should grab and use the correct version.
+
+Otherwise, you'll want to download and install it, as follows:
 
     git clone git://github.com/alexch/showoff.git
     cd showoff
     bundle install --without optional
     rake gem:install
 
-# Installing these slides
-
-Alex has been working on these slides on a fork, so until they are accepted into the Railsbridge github repo, do this:
-
-    git clone git://github.com/alexch/workshop.git
-
 # Running a single presentation
 
-For example, if you want to run the "Teacher Training" presentation, which lives in the `teachers` directory, do
-    
-    showoff serve teachers
+The proper way to use showoff is to run a set of slides as described in the `showoff.json` file in the project root directory.
 
-This will launch a local Sinatra server on port 9090. Open your browser to `localhost:9090`. On a Mac you can run:
+However, if you want to run a subdirectory's worth of slides only, you have two choices.
 
-    open http://localhost:9090
+For example, if you want to run the "Teacher Training" presentation, which lives in the `teachers` directory, you can run it from the project root directory:
 
-Use arrow keys to navigate slides. Press '?' to see a help window.
-
-(You can also `cd` into the directory and then run `showoff serve` if you like.)
+    rake showoff serve teachers
 
 # Running several presentations in a row
 
 You can create a custom presentation out of any combination and ordering of the section directories by creating your own `showoff.json` file. See `nyc.json` for an example -- it's the same as the standard `showoff.json` but inserts NY-specific resources after the Welcome section.
+
+    rake showoff serve --pres_file nyc.json
 
 # Editing slides
 
@@ -44,7 +57,9 @@ Slides are in [Markdown](http://daringfireball.net/projects/markdown/syntax) for
 
 You can also add custom `.css`, `.scss`, and `.js` files, which will get imported into all slide sections.
 
-Images should be in, or relative to, the current directory.
+Images should be in the same directory as the slide that references them.
+
+Workshops should edit the `current.md` file to contain accurate schedule and sponsor information.
 
 # Printing slides
 
