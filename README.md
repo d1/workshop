@@ -28,24 +28,24 @@ We use a Ruby app called `showoff` to generate and serve the workshop slides.
 
 Alex has been improving showoff; until his latest patches get accepted and released, you will have to use his version. If you use Bundler and Rake (as in "Quick Start" above) it should grab and use the correct version.
 
-Otherwise, you'll want to download and install it, as follows:
+    gem install showoff-alexch
 
-    git clone git://github.com/alexch/showoff.git
-    cd showoff
-    bundle install --without optional
-    rake gem:install
+The main difference is that showoff-alexch makes a new slide every time it sees an H1 (a single '# ' at the start of a line) if you specify --split-all, even if there's no !SLIDE above it.
 
-    showoff serve --split_all .
+If you install `showoff-alexch`, please be careful about updates, since it and normal `showoff` will overwrite each other's executable file.
 
 # Running a single presentation
 
 The proper way to use showoff is to run a set of slides as described in the `showoff.json` file in the project root directory.
 
-However, if you want to run a subdirectory's worth of slides only, you have two choices.
+    cd workshop
+    showoff serve --split .
+
+However, if you want to run a subdirectory's worth of slides only, you can name that directory. If there is no `showoff.json` file in there, then showoff will make a virtual `showoff.json` file based on the `.md` files in the given directory in alphabetical order.
 
 For example, if you want to run the "Teacher Training" presentation, which lives in the `teachers` directory, you can run it from the project root directory:
 
-    showoff serve teachers
+    showoff serve --split teachers
 
 # Running several presentations in a row
 
@@ -63,13 +63,15 @@ Images should be in the same directory as the slide that references them.
 
 Workshops should edit the `current.md` file to contain accurate schedule and sponsor information.
 
-# Printing slides
+# Printing slides (PDF)
 
 Try this: first `gem install pdfkit`, then visit
 
     http://localhost:9090/pdf
 
 but I make no guarantees!
+
+In particular, the text inside some slides will overrun their borders and get clipped.
 
 # Support
 
