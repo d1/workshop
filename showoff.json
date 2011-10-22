@@ -4,8 +4,6 @@
   "sections": [
 	{"section":"000_setup.md"},
 	{"section":"welcome"},
-    {"section":"current"},
-	{"section":"ruby_for_programmers"},
-	{"section":"suggestotron"}
+  {"section":"current"}
   ]
 }

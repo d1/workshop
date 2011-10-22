@@ -1,7 +1,13 @@
+
+
+<!SLIDE bullets incremental>
+# this is workshop number 27
+* OMG
+
+
 <!SLIDE bullets>
-# sponsors
-![Square](square_logo.jpg)
-![Pivotal Labs](pivotal_labs_logo.png)
+# sponsor
+![EngineYard](ey_logo_rgb.png)
 
 <!SLIDE bullets>
 # Schedule
@@ -13,4 +19,3 @@
 * 1:00-2:15 Session 3
 * 2:30-3:30 Session 4
 * 3:30-4:00 Wrap up & final questions
-* 5:00- conference reception at the Boulderado
