@@ -35,6 +35,8 @@ Otherwise, you'll want to download and install it, as follows:
     bundle install --without optional
     rake gem:install
 
+    showoff serve --split_all .
+
 # Running a single presentation
 
 The proper way to use showoff is to run a set of slides as described in the `showoff.json` file in the project root directory.
@@ -43,7 +45,7 @@ However, if you want to run a subdirectory's worth of slides only, you have two 
 
 For example, if you want to run the "Teacher Training" presentation, which lives in the `teachers` directory, you can run it from the project root directory:
 
-    rake showoff serve teachers
+    showoff serve teachers
 
 # Running several presentations in a row
 
