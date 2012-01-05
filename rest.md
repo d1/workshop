@@ -1,5 +1,5 @@
 !SLIDE
-# REST 
+# REST
 * Representational State Transfer
 * Application state and functionality are abstracted into resources
 * Each resource may be referenced with a global identifier (URI over HTTP)

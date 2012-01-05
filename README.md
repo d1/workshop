@@ -30,7 +30,7 @@ Alex has been improving showoff; until his latest patches get accepted and relea
 
     gem install showoff-alexch
 
-The main difference is that showoff-alexch makes a new slide every time it sees an H1 (a single '# ' at the start of a line) if you specify --split-all, even if there's no !SLIDE above it.
+The main difference is that showoff-alexch makes a new slide every time it sees an H1 (a single '# ' at the start of a line) if you specify `--split`, even if there's no !SLIDE above it.
 
 If you install `showoff-alexch`, please be careful about updates, since it and normal `showoff` will overwrite each other's executable file.
 
@@ -51,7 +51,7 @@ For example, if you want to run the "Teacher Training" presentation, which lives
 
 You can create a custom presentation out of any combination and ordering of the section directories by creating your own `showoff.json` file. See `nyc.json` for an example -- it's the same as the standard `showoff.json` but inserts NY-specific resources after the Welcome section.
 
-    rake showoff serve --pres_file nyc.json
+    rake showoff serve --pres_file showoff-nyc.json
 
 # Editing slides
 
@@ -101,3 +101,15 @@ Perhaps we should replace it with a free font like SansBetween
   http://manfred-klein.ina-mar.com/
   http://manfred-klein.ina-mar.com/fonts/2008-02/SansBetween-MAC.zip
   http://manfred-klein.ina-mar.com/fonts/2008-02/SansBetween-PC.zip
+
+# Content TODO
+
+* rename "welcome" to "orientation" ?
+* rename skills to concepts
+* remove or replace all devchix wiki links
+
+# Technical TODO
+
+* switch from Showoff to Deck.js
+* unify with "installfest" and "curriculum" apps
+
