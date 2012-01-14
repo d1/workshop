@@ -18,5 +18,7 @@
 
 <!SLIDE bullets>
 # Resources:
-* https://gist.github.com/1429661
+* http://installfest.railsbridge.org/workshop/resources
+
+* Follow-up:
 * Women Who Code Meetup
