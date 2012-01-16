@@ -27,7 +27,7 @@ This presentation covers the basic skills required to be a programmer...
 <!SLIDE bullets>
 # Special Directories
 
-* Current directory 
+* Current directory
   * `.` ("dot")
 * Parent directory
   * `..` ("dot dot")
@@ -46,10 +46,10 @@ This presentation covers the basic skills required to be a programmer...
 * text editor vs. word processor
   * similarities and differences
 * Have group open editor, create and save file with explanation of how and where files are stored.
-  * after change, go to command line and `cat` the file to see 
-* Explain file extensions and file types. 
-  * File types tell the editor how to color the special words in each language. 
-* Explain difference between the buffer (in the editor’s memory) and the file (stored on disk).  
+  * after change, go to command line and `cat` the file to see
+* Explain file extensions and file types.
+  * File types tell the editor how to color the special words in each language.
+* Explain difference between the buffer (in the editor’s memory) and the file (stored on disk).
   * Emphasize the importance of saving the buffer to a file before trying to run it with ruby.
   * "Save" makes things unsafe
 
@@ -71,9 +71,16 @@ This presentation covers the basic skills required to be a programmer...
 <!SLIDE bullets>
 # Operating System
 
-![](img/os_x_logo.jpg)
-![](img/windows_logo.gif)
-![](img/linux_logo.gif)
+<table>
+  <tr>
+    <td>
+      <img src='img/os_x_logo.jpg'>
+    <td>
+      <img src='img/windows_logo.gif'>
+    <td>
+      <img src='img/linux_logo.gif'>
+  </tr>
+</table>
 
 * The OS is a program that runs other programs
   * the term "multitasking" actually started with computers and migrated to common usage
@@ -99,7 +106,7 @@ This presentation covers the basic skills required to be a programmer...
   * "check in"/"commit"
   * "diff"
   * "merge"
-  
+
 <!SLIDE bullets>
 # Version Control with git
 * More Terminology
@@ -108,3 +115,4 @@ This presentation covers the basic skills required to be a programmer...
   * "pull"
 * Diagram
   * ![git](img/git.png)
+* <http://help.github.com/git-cheat-sheets/>

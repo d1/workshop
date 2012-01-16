@@ -6,14 +6,19 @@
 
 # What is a program?
 
-!SLIDE  
+!SLIDE
 # Operating Systems
 
-![](img/os_x_logo.jpg)
-
-![](img/windows_logo.gif)
-
-![](img/linux_logo.gif)
+<table>
+  <tr>
+    <td>
+      <img src='img/os_x_logo.jpg'>
+    <td>
+      <img src='img/windows_logo.gif'>
+    <td>
+      <img src='img/linux_logo.gif'>
+  </tr>
+</table>
 
 !SLIDE
 # Applications
@@ -49,12 +54,16 @@
 # Let's start writing code!
 
 !SLIDE bullets
+# "The Terminal"
 
 * Windows: git bash ![](img/git_bash.png)
 
 * Mac OS X: Terminal ![](img/mac_terminal_sm.png)
 
+* aka "The Shell" or "The Command Line" or "The Console" or "Bash" or "Shell"
+
 !SLIDE commandline
+# irb: the Interactive Ruby Browser
 
     $ irb
 
@@ -69,7 +78,14 @@
     => "hi"
 
 !SLIDE
-## Types of information
+## Many types of information
+
+* Strings
+* Numbers
+* Collections
+* Dates
+* Booleans (true/false)
+* etc.
 
 !SLIDE
 ## Strings (text)
@@ -78,10 +94,13 @@
 ## Numbers
 
 !SLIDE
-# Collections
+## Collections
+
+* Arrays
+* Hashes
 
 !SLIDE
-# Arrays
+## Arrays
 
 An Array is a list of objects.
 
@@ -108,14 +127,14 @@ Ruby starts counting at zero.
 * shift, unshift
 
         fruits.first #=> "kiwi"
-        
-!SLIDE 
+
+!SLIDE
 # Hashes
 
 * aka Dictionary or Map
 * collection of key/value pairs
 
-        >> states = {"CA" => "California", 
+        >> states = {"CA" => "California",
             "DE" => "Delaware"}
         => {"CA"=>"California", "DE"=>"Delaware"}
 
@@ -196,16 +215,20 @@ The easy way, with "do...end" rather than "{...}"
 !SLIDE bullets
 # Hello World
 
-hello.rb
+hello.rb:
+
     @@@ Ruby
     puts "Hello, World!"
 
 !SLIDE bullets
 # Arguments (ARGV)
 
-hello.rb
+hello.rb:
+
     @@@ Ruby
     puts "Hello, #{ARGV.first}!"
+
+terminal:
 
     $ ruby hello.rb Alice
     Hello, Alice!
@@ -213,7 +236,8 @@ hello.rb
 !SLIDE bullets
 # Conditionals
 
-hello.rb
+hello.rb:
+
     @@@ Ruby
     if ARGV.empty?
       puts "Hello, World!"
@@ -221,15 +245,17 @@ hello.rb
       puts "Hello, #{ARGV.first}!"
     end
 
+terminal:
+
     $ ruby hello.rb
     Hello, World!
     $ ruby hello.rb Alice
     Hello, Alice!
 
 !SLIDE
-# Sinatra 
+# Sinatra
 
-## hello_app.rb
+hello_app.rb:
 
     @@@ Ruby
     require 'rubygems'
@@ -256,7 +282,7 @@ then open a browser to <http://localhost:4567/>
 
     gem install rerun
     rerun hello_app.rb
-    
+
 ...now it'll automatically reload when you edit a file.
 
 !SLIDE

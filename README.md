@@ -49,7 +49,7 @@ For example, if you want to run the "Teacher Training" presentation, which lives
 
 # Running several presentations in a row
 
-You can create a custom presentation out of any combination and ordering of the section directories by creating your own `showoff.json` file. See `nyc.json` for an example -- it's the same as the standard `showoff.json` but inserts NY-specific resources after the Welcome section.
+You can create a custom presentation out of any combination and ordering of the section directories by creating your own `showoff.json` file. See `showoff-nyc.json` for an example -- it's the same as the standard `showoff.json` but inserts NY-specific resources after the Welcome section.
 
     rake showoff serve --pres_file showoff-nyc.json
 

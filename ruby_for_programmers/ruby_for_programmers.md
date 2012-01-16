@@ -11,13 +11,13 @@ This section is intended as a brief, lightweight overview of the Ruby language; 
 
 # Ruby vs. Rails
 
-## Ruby is a Language
+### Ruby is a Language
 <img src="ruby-logo.jpg" height="125" width="125">
 
-## Rails is a Framework
+### Rails is a Framework
 <img src="rails_logo.jpg" height="125" width="125">
 
-## Rails is written in Ruby
+### Rails is written in Ruby
 
 <!SLIDE subsection incremental>
 # Ruby Philosophy

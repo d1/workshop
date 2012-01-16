@@ -7,7 +7,7 @@
 
 <!SLIDE bullets>
 # sponsor
-![EngineYard](ey_logo_rgb.png)
+![EngineYard](img/ey_logo_rgb.png)
 
 <!SLIDE bullets>
 # Schedule

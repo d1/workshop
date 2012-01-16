@@ -24,35 +24,16 @@
 # What is Ruby on Rails?
 
 !SLIDE image
+# Web Application Plumbing
 
 ![Web App](img/web-application.png)
 
 !SLIDE center
-![Ruby](img/ruby-logo.jpg)
-![Rails](img/rails_logo.jpg)
+# Ruby vs. Rails
 
-!SLIDE
-
-<table width="100%">
-<tr>
-<td align="center">
-<img src="img/ruby-logo.jpg" width="250">
-</td>
-<td align="center">
-<img src="img/rails_logo.jpg">
-</td>
-</tr>
-<tr>
-<td align="center">
-<span class="big-text">Language</span>
-</td>
-<td align="center">
-<span class="big-text">Framework</span>
-</td>
-</tr>
-</table>
-# &nbsp;
-# &nbsp;
+|Ruby is a Language | Rails is a Framework |
+|----|-----|
+| <img src="img/ruby-logo.jpg" alt="Ruby" width="250"> | <img src="img/rails_logo.jpg" alt="Rails" width="250"> |
 
 <!SLIDE bullets>
 # Ruby: programming language
@@ -112,9 +93,8 @@
 
 <!SLIDE bullets>
 # Materials
-* <http://railsbridge.github.com/workshop>
-* <http://github.com/railsbridge/workshop>
-* <http://wiki.devchix.com/index.php?title=Rails_3_Curriculum>
+* Slides: <http://railsbridge.github.com/workshop>
+* Curriculum: <http://curriculum.railsbridge.org>
 
 <!SLIDE bullets>
 # Two Tracks Today
