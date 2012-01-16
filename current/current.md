@@ -1,13 +1,13 @@
 
 
 <!SLIDE bullets incremental>
-# this is workshop number 27
+# Welcome to RailsBridge #30
 * OMG
 
 
 <!SLIDE bullets>
 # sponsor
-![EngineYard](img/ey_logo_rgb.png)
+![Scribd](scribd.jpeg)
 
 <!SLIDE bullets>
 # Schedule
