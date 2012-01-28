@@ -10,6 +10,12 @@
 ![Scribd](scribd.jpeg)
 
 <!SLIDE bullets>
+# After-party: Ozone, 2nd & Brannan
+
+<!SLIDE >
+![Directions](ozone.png)
+
+<!SLIDE bullets>
 # What did we learn?
 * Ruby as a language
 * Rails as a framework
