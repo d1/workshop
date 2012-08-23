@@ -262,7 +262,7 @@ hello_app.rb:
     require 'sinatra'
 
     get '/' do
-      "<b>Hello, <i>bang bang</i>!"
+      "<b>Hello, <i>bang bang</i>!</b>"
     end
 
 !SLIDE commandline
