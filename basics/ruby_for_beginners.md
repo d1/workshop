@@ -150,7 +150,7 @@ Ruby starts counting at zero.
     => 7
     > my_variable * 3
     => 15
-    > my_fruits = my_fruits + ["lychee"]
+    > my_fruits = fruits + ["lychee"]
     => ["kiwi", "strawberry", "plum", "lychee"]
     > my_fruits = my_fruits - ["lychee"]
     => ["kiwi", "strawberry", "plum"]
