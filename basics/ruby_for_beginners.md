@@ -280,8 +280,8 @@ then open a browser to <http://localhost:4567/>
 !SLIDE bullets
 # sinatra with rerun
 
-    gem install rerun
-    rerun hello_app.rb
+    $ gem install rerun
+    $ rerun hello_app.rb
 
 ...now it'll automatically reload when you edit a file.
 
